@@ -1,0 +1,79 @@
+body {
+	margin: 0px;
+	padding: 20px;
+}
+
+#text-container {
+	width: 50%;
+}
+
+.text {
+	font: bold large Georgia;
+}
+
+.link {
+	color: blue;
+	cursor: pointer;
+}
+
+#header {
+	height: 20%;
+	color:black;
+	text-align:left;
+	padding:0px;
+	font: x-large Georgia;
+}
+
+.jumbo {
+	font-size: 5vmax;
+}
+
+.tiny {
+	font-size: 1vmax;
+}
+
+#brain-container {
+	width: 40%;
+	padding: 0px;
+}
+
+.resp-img {
+	max-height: 100%;
+	max-width:100%;
+}
+
+#face-container {
+	position: absolute;
+	right: 7%;
+	top: 0px;
+	max-height: 10%;
+	max-width: 10%;
+}
+
+img[usemap] {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+}
+
+.right {
+	float: right;
+}
+
+
+#blurb {
+	height: 70%;
+	width: 80%;
+	padding-top: 0px;
+	padding-right: 0%;
+	overflow: auto;
+}
+
+#blurb h1 {
+	font-size: 1.7vmax;
+	text-decoration: underline;
+}
+#blurb p {
+	font-size: 1.2vmax;
+}

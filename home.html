@@ -1,0 +1,76 @@
+<html>
+<!--
+Include:
+	Work Experience/Resume
+	Family
+	Friends
+	Fraternity
+	Interests
+-->
+<head>
+	<link rel="stylesheet" href="DMSP_style.css">
+	
+	
+	
+</head>
+
+<body bgcolor=#e6e6fa>
+
+<div id="text-container" class="right">
+	<div id="header" class="text">
+		<span id="title" class="jumbo text">
+			Leland Tran 
+			<!--<img id='img-face' src='CompositeCrop.png'>-->
+		</span>
+
+		<br>
+		<span id="about" class="tiny link text">About</span>
+		<span id="aboutresourcepipe" class="tiny text">|</span> 
+		<span id="resources" class="tiny link text">Resources</span>
+		<!--
+		<span id="blurb" class="right">
+			Hello world!
+		</span>
+		-->
+	</div>
+	<div id="blurb" class="text" >
+		<!-- HTML edited by jquery -->
+	</div>
+
+</div>
+
+<div id="brain-container">
+	<img id="img-brain" class="resp-img" src="MindMap.png" usemap="#mindmap">
+
+	<map name="mindmap" id="mindmap">
+		<area shape="circle" coords = "1113,595,200" id="workexp" onclick="changeBlurb(workexp_ht)">
+		<area shape="circle" coords = "1577, 788, 200" id="family" onclick="changeBlurb(family_ht)">
+		<area shape="circle" coords = "819, 1332, 200" id="family" onclick="changeBlurb(photo_ht)">
+		<area shape="circle" coords = "751, 901, 200" id="family" onclick="changeBlurb(tke_ht)">
+		<area shape="circle" coords = "1263, 1133, 200" id="family" onclick="changeBlurb(smash_ht)">
+	</map>
+</div>
+
+<div id="face-container">
+	<img id='img-face' class='resp-img' src='CompositeCrop.png'>
+</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="DMSP_blurbs.js"></script>
+	<script language="javascript" type="text/javascript" src="DMSP_jqfun.js"></script>
+	<script src="jQuery-rwdImageMaps-master/jquery.rwdImageMaps.min.js"></script>
+	<script>
+		$(document).ready(function(e) {
+			$('img[usemap]').rwdImageMaps();
+			
+			/*
+			$('area').on('click', function() {
+				alert($(this).attr('id') + ' clicked');
+			});
+			*/
+		});
+	</script>
+</body>
+
+</html>

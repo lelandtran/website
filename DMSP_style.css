@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	padding: 20px;
+	padding: 2%;
 }
 
 #text-container {
@@ -8,7 +8,7 @@ body {
 }
 
 .text {
-	font: bold large Georgia;
+	font: large Georgia;
 }
 
 .link {
@@ -21,11 +21,11 @@ body {
 	color:black;
 	text-align:left;
 	padding:0px;
-	font: x-large Georgia;
 }
 
 .jumbo {
 	font-size: 5vmax;
+	font-weight: bold;
 }
 
 .tiny {
@@ -37,9 +37,15 @@ body {
 	padding: 0px;
 }
 
-.resp-img {
+img.resp {
 	max-height: 100%;
 	max-width:100%;
+}
+
+img.centered {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #face-container {
@@ -64,7 +70,7 @@ img[usemap] {
 
 #blurb {
 	height: 70%;
-	width: 80%;
+	width: 90%;
 	padding-top: 0px;
 	padding-right: 0%;
 	overflow: auto;

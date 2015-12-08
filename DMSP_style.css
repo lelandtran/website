@@ -1,14 +1,23 @@
 body {
+	background-color: #e6e6fa;
 	margin: 0px;
 	padding: 2%;
 }
 
 #text-container {
-	width: 50%;
+	border-radius: 5%;
+	width: 45%;
+	background-color: white;
+	padding: 2%;
+}
+
+#title {
+	font-family: Georgia, serif;
+	padding-left: 1%;
 }
 
 .text {
-	font: large Georgia;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .link {
@@ -20,7 +29,7 @@ body {
 	height: 20%;
 	color:black;
 	text-align:left;
-	padding:0px;
+	padding-top:2%;
 }
 
 .jumbo {
@@ -39,7 +48,7 @@ body {
 
 img.resp {
 	max-height: 100%;
-	max-width:100%;
+	max-width:98%;
 }
 
 img.centered {
@@ -50,8 +59,8 @@ img.centered {
 
 #face-container {
 	position: absolute;
-	right: 7%;
-	top: 0px;
+	right: 4%;
+	top: 2%;
 	max-height: 10%;
 	max-width: 10%;
 }
@@ -69,17 +78,21 @@ img[usemap] {
 
 
 #blurb {
+	border-style:solid;
+	border-width:.3vmax;
 	height: 70%;
-	width: 90%;
-	padding-top: 0px;
-	padding-right: 0%;
+	width: 100%;
 	overflow: auto;
 }
 
 #blurb h1 {
 	font-size: 1.7vmax;
 	text-decoration: underline;
+	padding-left:1%;
+	padding-right:1%;
 }
 #blurb p {
 	font-size: 1.2vmax;
+	padding-left:1%;
+	padding-right:1%;
 }
